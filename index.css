@@ -1,0 +1,47 @@
+  #box1{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: aqua(125,5,5);
+    border: 2px solid black;
+    border-radius: 10%;
+   }
+#box1:hover{
+    background-image:rgb(0, 0, 0);
+    transform: scale(1.0);
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(255, 0, 242)(125,5,5);
+    border: 2px solid black;
+    border-radius: 10%;
+
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(175, 82, 39)(125,5,5);
+    border: 2px solid black;
+    border-radius: 10%;
+    
+
+}
+      .car{
+    position:absolute ;
+    bottom: 100px;
+    animation: movecar 2s linear infinite;
+}
+@keyframes movecar {
+    0%{
+        right:100%;
+    }
+    100%{
+        right: 100%;
+    }
+    }
+
+    
+
